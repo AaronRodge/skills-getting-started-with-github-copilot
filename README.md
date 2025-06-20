@@ -1,5 +1,6 @@
 # Getting Started with GitHub Copilot
 
+
 <img src="https://octodex.github.com/images/Professortocat_v2.png" align="right" height="200px" />
 
 Hey @AaronRodge!
@@ -14,3 +15,28 @@ Remember, it's self-paced so feel free to take a break! ☕️
 
 &copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
 
+## How to Create and Publish a New Git Branch
+
+1. **Create a new branch:**
+    ```sh
+    git checkout -b your-branch-name
+    ```
+
+2. **Make your changes and commit them:**
+    ```sh
+    git add .
+    git commit -m "Describe your changes"
+    ```
+
+3. **Push the branch to GitHub:**
+    ```sh
+    git push -u origin your-branch-name
+    ```
+
+Replace `your-branch-name` with a descriptive name for your branch.
+## Quick Reference
+
+```sh
+git checkout -b {new_branch_name}
+git push -u origin {new_branch_name}
+```
